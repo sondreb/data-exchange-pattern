@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSegmentExchangePattern", "DataSegmentExchangePattern\DataSegmentExchangePattern.csproj", "{F1C21456-91D0-4410-BFCD-208AC825E5E0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyrell.Heart", "Tyrell.Heart\Tyrell.Heart.csproj", "{FAF64F87-4DED-40D1-9505-B945C18F4E9A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{64553806-CA59-4634-8478-BCCB04CEAB1C}"
+	ProjectSection(SolutionItems) = preProject
+		..\..\.gitattributes = ..\..\.gitattributes
+		..\..\.gitignore = ..\..\.gitignore
+		..\..\LICENSE = ..\..\LICENSE
+		..\..\README.md = ..\..\README.md
+		readme.txt = readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyrell.Heart.Tests", "Tyrell.Heart.Tests\Tyrell.Heart.Tests.csproj", "{ED33EA57-0B6E-4BBE-996B-AE66399E1376}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyrell.Heart.Api", "Tyrell.Heart.Api\Tyrell.Heart.Api.csproj", "{8180F897-1ADE-479D-BEC2-FEA92F957D4F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F1C21456-91D0-4410-BFCD-208AC825E5E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1C21456-91D0-4410-BFCD-208AC825E5E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1C21456-91D0-4410-BFCD-208AC825E5E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1C21456-91D0-4410-BFCD-208AC825E5E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FAF64F87-4DED-40D1-9505-B945C18F4E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FAF64F87-4DED-40D1-9505-B945C18F4E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FAF64F87-4DED-40D1-9505-B945C18F4E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FAF64F87-4DED-40D1-9505-B945C18F4E9A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED33EA57-0B6E-4BBE-996B-AE66399E1376}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED33EA57-0B6E-4BBE-996B-AE66399E1376}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED33EA57-0B6E-4BBE-996B-AE66399E1376}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED33EA57-0B6E-4BBE-996B-AE66399E1376}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8180F897-1ADE-479D-BEC2-FEA92F957D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8180F897-1ADE-479D-BEC2-FEA92F957D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8180F897-1ADE-479D-BEC2-FEA92F957D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8180F897-1ADE-479D-BEC2-FEA92F957D4F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

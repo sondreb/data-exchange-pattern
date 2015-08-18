@@ -5,7 +5,7 @@ Description and sample of the Data Segment Exchange Pattern.
 ## Quick Start Guide
 
 Clone the repository and open with Visual Studio 2015. 
-Sample is built using C# and uses [xunit](http://xunit.github.io/) for unit testing.
+Samples is built using C# and uses [xunit](http://xunit.github.io/) for unit testing.
 
 ## Pattern Description
 
@@ -18,11 +18,16 @@ Objects can declare their data dependencies and the data they provide.
 * Fits well in a system that utilizes different external providers for different countries.
 * Improves the code quality of systems that have a lot of data orchestration.
 
-## Sample Project
+## Sample Projects
 
-The sample project is built with a shared common library that implements the Data Segment Exchange Pattern, 
+The sample projects is built with a shared common library that implements the Data Segment Exchange Pattern, 
 and there is a domain class library for business logic and Web API project for calling. The pattern fits
 well for both APIs and for self-contained applications and services.
+
+* **InheritanceSample** (in development): Uses inheritance and base models to implement the pattern.
+
+* **AnnotationSample** (in planning): Uses annotations with attributes on classes, which separates the 
+pattern from the domain model more than the InheritanceSample. 
 
 ## Final Notes
 
